@@ -1,0 +1,22 @@
+.news-main{padding: 170px 0 100px 0;}
+.news-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.news-item{
+    border: 1px solid var(--grey);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    height: 290px!important;
+    overflow: hidden;
+}
+.news_description{padding: 30px 20px; width: 70%;}
+.news_link :is(span, i){color: var(--red);}
+.news_link span{margin-right: 10px;}
+.news_img{
+    width: 30%!important;
+    height: 100%!important;
+}
+.news_date{display: block; margin-bottom: 10px;}

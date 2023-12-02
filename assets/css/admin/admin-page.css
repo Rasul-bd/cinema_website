@@ -1,0 +1,62 @@
+.admin-login-page{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-header .btn-primary :is(i, span){color: var(--white);}
+.admin-main{
+    background-color: var(--white);
+    padding: 150px 0 100px 0;
+}
+.sidepanel{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+    border-radius: 20px;
+    background-color: white;
+}
+.sidepanel h5{
+    font-size: 24px;
+    color: var(--black);
+    margin-bottom: 50px;
+}
+.sidepanel_btn{
+    border: none;
+    background-color: white;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: start;
+}
+.sidepanel_btn:last-child{
+    margin-bottom: 0;
+}
+.sidepanel_btn :is(i, span){
+    color: var(--black);
+    font-size: 18px;
+}
+.sidepanel_btn:hover :is(i,span){
+    color: var(--red);
+}
+.sidepanel_btn i{
+    margin-right: 10px;
+}
+.admin-section{
+    padding: 30px;
+}
+.start-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.admin-section h1{
+    text-align: center;
+    color: var(--black);
+}
+.hide-section{display: none;}
+.admin-section .table :is(th, td){
+    color: var(--black);
+}
